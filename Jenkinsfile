@@ -16,13 +16,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build!!!'
+                sh 'npm install'
                 sh 'npm run build'
             }
         }
         stage('Unit Tests') {
             steps {
                 echo 'Run Unit Tests!'
-                sh 'npm run test:unit'
+                sh 'npm test'
             }
         }
         stage('End-to-End Tests') {
