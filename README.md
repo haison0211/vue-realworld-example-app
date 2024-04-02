@@ -3,7 +3,7 @@
 
 ----
 ##New Maintainers wanted##
-Anyone up for the challenge of maintaining this repo?s
+Anyone up for the challenge of maintaining this repo?
 Reach out on twitter @vilsbole
 ----
 
